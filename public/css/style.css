@@ -1,0 +1,26 @@
+:root {
+    --color-background: #2f2d4b;
+    --color-purple-wind: #3b2c47;
+    --color-red-wind: #880039;
+    --color-bakcground-light: #98a7c2;
+}
+
+.object-small {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.table-regular {
+    width: 65%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+    .object-small {
+        width: 90%;
+    }
+
+    .table-regular {
+        width: 100%
+    }
+}
