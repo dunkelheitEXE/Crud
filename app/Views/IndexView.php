@@ -20,19 +20,19 @@
         <legend class="text-center mb-3 p-2 text-light">SIGN UP</legend>
         <div class="input-group mb-3 ">
             <span class="input-group-text">User name</span>
-            <input type="text" name="username" id="username" class="form-control">
+            <input type="text" name="name" id="username" class="form-control">
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text">User email</span>
-            <input type="email" name="useremail" id="useremail" class="form-control">
+            <input type="email" name="email" id="useremail" class="form-control">
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text">User Password</span>
-            <input type="password" name="userpassword" id="userpassword" class="form-control">
+            <input type="password" name="password" id="userpassword" class="form-control">
             <a href="#" class="btn btn-outline-secondary" type="button"><img src="public/img/visibilityOn.svg" alt=""></a>
         </div>
         <div class="text-center">
-            <input type="submit" value="Let's start" class="btn btn-success" style="width: 50%;">
+            <input type="submit" name="submit" value="Let's start" class="btn btn-success" style="width: 50%;">
         </div>
     </form>
 

@@ -9,4 +9,6 @@ CREATE TABLE users(
     PRIMARY KEY(user_id)
 );
 
+ALTER TABLE users MODIFY user_email VARCHAR(255) UNIQUE NOT NULL;
+
 SELECT * FROM users;
