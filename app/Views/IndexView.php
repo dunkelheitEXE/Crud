@@ -1,3 +1,4 @@
+<!-- PAGE'S BACKGROUND -->
 <style>
     body {
         background: linear-gradient(135deg, var(--color-background), var(--color-purple-wind), var(--color-red-wind));
@@ -14,9 +15,10 @@
     }
 </style>
 
+<!-- FORM TU SIGN UP AN USER -->
 <div class="contenedor">
     
-<form action="index.php" class="object-small my-5 p-4 bg-dark rounded-3" data-bs-theme="dark" method="POST">
+    <form action="index.php" class="object-small my-5 p-4 bg-dark rounded-3" data-bs-theme="dark" method="POST">
         <legend class="text-center mb-3 p-2 text-light">SIGN UP</legend>
         <div class="input-group mb-3 ">
             <span class="input-group-text">User name</span>

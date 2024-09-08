@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if(isset($_SESSION['user-id'])) {
-    header('Location: Home.php');
+    header('Location: Home.php?user='.$_SESSION['user-id']);
 }
 require "app/config/ConnectionDb.php";
 require "app/controllers/UserController.php";
